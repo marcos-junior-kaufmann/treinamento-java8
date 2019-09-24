@@ -2,10 +2,8 @@ package br.com.kaufmannconsultoria.entity;
 
 public class Car {
 
-	public Integer hp;
-	public Integer km;
-	public String marca;
-	public String nome;
+	public Integer hp, km;
+	public String marca, nome;
 
 	private Car(Integer hp, Integer km, String marca, String nome) {
 		this.hp = hp;

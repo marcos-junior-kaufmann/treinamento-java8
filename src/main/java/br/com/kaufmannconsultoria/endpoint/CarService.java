@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 import br.com.kaufmannconsultoria.entity.Car;
 
-public class CarResource {
+public class CarService {
 
 	public static void main(String[] args) {
 		Stream.of(Car.of(160, 50000, "fiat", "147"), Car.of(230, 100000, "chevrolet", "astra"),
